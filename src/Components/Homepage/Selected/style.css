@@ -1,0 +1,72 @@
+.selected {
+    padding: 100px 0;
+}
+
+.selected h2 {
+    font-family: Manrope;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+
+}
+
+.selected p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #4C4D59;
+}
+
+.selected h3 {
+    font-family: Manrope;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2A2A28;
+    margin: 20px 0;
+}
+
+.selected .card p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #444444;
+}
+
+.selected .wrap {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    align-items: start;
+}
+
+.selected .card {
+    width: 100%;
+}
+
+.selected .card-center {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 45%;
+}
+
+.selected img {
+    width: 100%;
+}

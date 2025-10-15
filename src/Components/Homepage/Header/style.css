@@ -1,0 +1,42 @@
+.header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header .logo {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #2A2A28;
+}
+
+.header li a {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #444444;
+}
+
+.header ul li:last-child {
+    padding: 10px 20px;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+}

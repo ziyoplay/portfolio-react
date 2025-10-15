@@ -1,0 +1,32 @@
+.resumeText {
+    padding: 75px 0;
+}
+
+.resumeText h3 {
+    font-family: Manrope;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+
+}
+.resumeText ul{
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+}
+
+.resumeText li {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #4C4D59;
+    list-style-type: disc;
+}

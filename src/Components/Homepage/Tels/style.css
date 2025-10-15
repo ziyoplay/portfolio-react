@@ -1,0 +1,11 @@
+.tels{
+    padding: 100px 0;
+}
+
+.tels img{
+    width: 100%;
+}
+.tels .swiper-slide{
+    user-select: none;
+    width: 40% !important;
+}

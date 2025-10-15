@@ -1,0 +1,144 @@
+.projects {
+    padding: 100px 0;
+}
+
+.projects h2 {
+    font-family: Manrope;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+
+.projects p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #4C4D59;
+}
+
+.projects h3 {
+    font-family: Manrope;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2A2A28;
+    margin: 20px 0;
+}
+
+.projects .card p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #444444;
+}
+
+.projects .wrap {
+    margin-top: 30px;
+    gap: 30px;
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.projects .card {
+    width: 45%;
+}
+
+.projects .card-center {
+    max-width: 45%;
+}
+
+.projects img {
+    width: 100%;
+}
+
+/* Other Projects Section */
+.other-projects {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+
+.other-projects h2 {
+    font-family: Manrope;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 50px;
+    color: #2A2A28;
+}
+
+.other-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.other-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.other-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    color: inherit;
+}
+
+.other-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.other-card h3 {
+    font-family: Manrope;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #2A2A28;
+    margin: 0 0 15px 0;
+}
+
+.other-card p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #666666;
+    margin: 0;
+}
+
